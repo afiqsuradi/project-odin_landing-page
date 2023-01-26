@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1F2937;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container .menu{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+
+.menu-container .logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #F9FAF8;
+    padding: 1rem;
+}
+
+.menu-container .links{
+    display: flex;
+    justify-content: space-around;
+}
+.links a{
+    font-size: 1.125rem;
+    color: #E5E7EB;
+    text-decoration-line: none;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    width: 80%;
+    padding: 1rem;
+}
+
+.banner-container h1{
+    color: #F9FAF8;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner-container p{
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.8rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.information-container, .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    width: 60%;
+}
+
+.information-top{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 3rem;
+}
+
+.information-item-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information-item{
+    margin: 1rem;
+}
+.information-item-top{
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1rem 1rem 1rem;
+}
+.box{
+    width: 7vw;
+    height: 7vw;
+    border: 0.3rem solid #3882F6;
+    border-radius: 0.4rem;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.information-item-bottom{
+    text-align: center;
+}
+
+.information-item-container, .information-bottom{
+    display: flex;
+}
