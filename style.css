@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap');
 
 *{
     margin: 0;
@@ -71,7 +71,7 @@ header{
     margin-bottom: 1rem;
 }
 
-button{
+.banner button{
     font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
     background-color: #3882F6;
@@ -101,7 +101,6 @@ button{
 
 .information-item-container{
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .information-item{
@@ -128,4 +127,87 @@ button{
 
 .information-item-container, .information-bottom{
     display: flex;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.quote-container{
+    display: flex;
+    margin: 6rem;
+    width: 50%;
+    flex-direction: column;
+}
+
+.quote-container h2{
+    font-weight: initial;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container h3{
+    width: 100%;
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    color: #F9FAF8;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6rem;
+    width: 60%;
+    background-color: #3882F6;
+    padding: 2rem 4rem;
+}
+
+.card-text{
+    flex: 1 1 70%;
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 30%;
+}
+
+.card-button button{
+    border: 0.2rem solid #F9FAF8;
+    border-radius: 0.6rem;
+    color: #F9FAF8;
+    padding: 0.5rem 1.5rem;
+    background: none;
+}
+
+.card-text h3{
+    font-size: 1.6rem;
+}
+
+.card-text h4{
+    font-weight: 300;
+}
+
+.trademark{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 1.6rem 0;
 }
